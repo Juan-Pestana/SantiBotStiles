@@ -51,9 +51,7 @@
     display:none;
 }
 
-/*.inbenta-bot__chat.messages__message--received.messages__message__avatar{
-    display: none;
-}*/
+
 
 .inbenta .header__title{
      background-image: url(https://res.cloudinary.com/pestana/image/upload/v1608042840/santander-logo-1_xxcpre.png);
@@ -79,13 +77,59 @@
 }
 
 .inbenta .inbenta-bot__chat .content__buttons--multiple-choise .inbenta-bot-button {
-    color: #0000EC;
+    color: white;
     font-weight: 500;
 }
-.inbenta .inbenta-bot__powered__link{
-    display: none
+
+.inbenta .inbenta-bot__chat .content__buttons--multiple-choise .inbenta-bot-button:hover {
+    color: #2f3848;
+    text-decoration: underline ;
 }
 
-.inbenta .inbenta-bot-icon .inbenta-bot-icon--rating-yes{
-    color: red
+.inbenta .inbenta-bot__powered__link{
+    display: none;
 }
+
+.inbenta .inbenta-bot-rating__content__buttons .inbenta-bot-button {
+    color: red;
+} 
+
+.inbenta .inbenta-bot-rating__content__buttons .inbenta-bot-button {
+    color: red;
+} 
+
+.inbenta .inbenta-bot-rating__content__buttons .inbenta-bot-button .inbenta-bot-icon--rating-no:hover{
+    color: black;
+} 
+
+.inbenta .inbenta-bot-rating__content__buttons .inbenta-bot-button .inbenta-bot-icon--rating-yes:hover{
+    color: rgb(86, 156, 86);
+} 
+
+.inbenta .confirmation-box__buttons .inbenta-bot-button{
+    color: #ec0000;
+    border: 1px solid #ec0000
+}
+
+.inbenta .confirmation-box__buttons .inbenta-bot-button:hover{
+    color: white;
+    background-color: #ec0000;
+    border: 1px solid white
+}
+
+.inbenta .confirmation-box__buttons .inbenta-bot-button .clicked{
+    color: white;
+    background-color: #ec0000;
+    border: 1px solid white;
+}
+
+.inbenta .confirmation-box__icon .inbenta-bot-icon{
+    color: #ec0000;
+}
+
+
+
+.inbenta .inbenta-bot__chat__confirmation .confirmation-box__title{
+    color: #ec0000
+}
+
