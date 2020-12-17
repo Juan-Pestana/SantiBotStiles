@@ -1,0 +1,91 @@
+.inbenta .inbenta-bot__launcher{
+    background-color: #ec0000;
+
+}
+
+.inbenta .inbenta-bot__launcher:hover{
+    background-color: white;
+    color: #ec0000
+}
+.inbenta .inbenta-bot__launcher:hover div{
+   
+    color: #ec0000
+}
+
+.inbenta .inbenta-bot__chat__header {
+    background-color: #ec0000;
+}
+
+.inbenta .logo{
+    height: 30px !important;
+}
+
+.inbenta .inbenta-bot__chat .messages__message--received .messages__message__content .content__wrapper{
+     background-color:  #ec0000 ;
+    color: white;
+    font-weight: 500;
+}
+
+.inbenta .header__actions__icon::before{
+    color: white;
+}
+
+.inbenta .header__actions__icon:hover::before{
+    color: #ec0000;
+}
+
+
+
+
+.inbenta .inbenta-bot__bubble .messages__message--received .messages__message__avatar, .inbenta-bot__chat .messages__message--received .messages__message__avatar {
+    
+   background-image: url(https://res.cloudinary.com/pestana/image/upload/v1608111839/santibot_yi942m.jpg);
+    background-size: cover;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 1px 1px 0 rgba(13,45,86,.14), 0 2px 1px -1px rgba(13,45,86,.12), 0 1px 3px 0 rgba(13,45,86,.2);
+}
+
+.inbenta .inbenta-bot__bubble .messages__message--received .messages__message__avatar .inbenta-bot-icon--avatar:before, .inbenta-bot__chat .messages__message--received .messages__message__avatar .inbenta-bot-icon--avatar:before{
+    display:none;
+}
+
+/*.inbenta-bot__chat.messages__message--received.messages__message__avatar{
+    display: none;
+}*/
+
+.inbenta .header__title{
+     background-image: url(https://res.cloudinary.com/pestana/image/upload/v1608042840/santander-logo-1_xxcpre.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 1px;
+    color: rgba(0, 0, 0, 0) !important;
+    height: 50px;
+    width: 180px;
+    margin-top: 8px;
+}
+
+.inbenta .inbenta-bot__chat .messages__message--sent .messages__message__content .content__wrapper{
+    background-color: #dadfe2 !important;
+    color: black !important;
+}
+
+.inbenta .content__status{
+    background-color:none;
+}
+.inbenta .status__time{
+    color: #2f3848;
+}
+
+.inbenta .inbenta-bot__chat .content__buttons--multiple-choise .inbenta-bot-button {
+    color: #0000EC;
+    font-weight: 500;
+}
+.inbenta .inbenta-bot__powered__link{
+    display: none
+}
+
+.inbenta .inbenta-bot-icon .inbenta-bot-icon--rating-yes{
+    color: red
+}
